@@ -1,0 +1,65 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+Publisher: Krynetic
+Moniker: Krynetic
+
+PackageName: Krynetic Database
+PackageIdentifier: Krynetic.Database
+PackageUrl: https://github.com/Krynetic/Database-Releases
+
+PackageVersion: 1.2.6
+PackageLocale: en-US
+
+PublisherUrl: https://krynetic.com/
+PublisherSupportUrl: https://github.com/Krynetic/Database-Releases/issues
+
+License: Proprietary
+Copyright: Copyright 2026 Krynetic
+
+ShortDescription: Krynetic is a single unified object space database that behaves like GraphQL, WCF, MQTT, gRCP, HTTP and more — simultaneously.
+Description: >
+  Krynetic is a high-performance, production-grade database engine and the world's first **Unified Data Object Space (UDOS)**,
+  designed to behave like fast, accessible memory that computes on data the moment it arrives.
+  Unlike traditional static storage, Krynetic functions as a **self-computing engine** featuring an internal expression system
+  with over 300 built-in functions, allowing the database to automatically react to changes and update derived values internally
+  without the need for external "glue code" or additional services.
+
+  Built in pure C# as a **hybrid in-memory and disk-backed engine** with zero external database dependencies,
+  it provides simultaneous multi-protocol access through interfaces such as GraphQL, MQTT, gRPC, WCF, HTTP, SQL, MongoDB, S3.
+  Its unique **recursive dictionary storage model** allows any datapoint to communicate with any other regardless of the access method,
+  enabling organizations to eliminate "infrastructure sprawl" by consolidating fragmented software stacks into a single,
+  energy-efficient platform that reduces operational overhead and carbon emissions.
+
+ReleaseNotes: We're excited to share this new version!
+ReleaseNotesUrl: https://github.com/Krynetic/Database-Releases/releases/tag/v1.2.6
+
+Tags:
+- api
+- database
+- graphql
+- grcp
+- mongodb
+- mqtt
+- postgres
+- rest
+- server
+- sftp
+- sql
+- sql-server
+- ssh
+- storage
+- wcf
+- windows
+
+Agreements:
+  - Agreement: >
+      Krynetic Database is provided "as is" and "as available", without warranty of any kind, express or implied.
+      To the maximum extent permitted by applicable law, Krynetic and its contributors disclaim all liability for any loss,
+      damage, data loss, corruption, downtime, security issue, or other consequence arising from use of, or inability to use,
+      this software.
+      You are solely responsible for evaluating, testing, deploying, operating, backing up, securing, and maintaining your systems and data.
+      No guarantee is made regarding correctness, availability, compatibility, performance, merchantability, or fitness for a particular purpose.
+      By installing or using this software, you acknowledge that you do so at your own risk.
+
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0

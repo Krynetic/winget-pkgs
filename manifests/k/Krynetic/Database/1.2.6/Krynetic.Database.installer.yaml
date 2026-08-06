@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+
+PackageIdentifier: Krynetic.Database
+PackageVersion: 1.2.6
+
+Scope: user
+ProductCode: Database
+
+ReleaseDate: 2026-07-11
+
+InstallerLocale: en-US
+InstallerType: exe
+
+UpgradeBehavior: install
+
+AppsAndFeaturesEntries:
+- DisplayName: Krynetic Database
+  Publisher: Krynetic
+  ProductCode: Database
+
+InstallModes:
+  - silent
+
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Krynetic/Database-Releases/releases/download/v1.2.6/Krynetic_v1.2.6_windows_amd64.exe
+  InstallerSha256: FDB144486D267C9BE607AC0A78D6EBFBD1463CC41F82920A76A87CFBD093BDE9
+  DisplayInstallWarnings: false
+
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\Krynetic'
+
+  InstallerSwitches:
+    Silent: '--silent'
+
+ManifestType: installer
+ManifestVersion: 1.12.0
